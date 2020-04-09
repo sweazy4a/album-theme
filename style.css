@@ -1,0 +1,139 @@
+/*
+Theme Name: Fashion Theme
+Author: Vladyslav Radchenko
+Description: Bootstrap Blog template converted to WordPress
+Version: 0.0.1
+Tags: bootstrap , jquery , flexboxes
+*/
+
+ 
+body{
+    font-family: 'Alegreya SC', serif;
+    overflow-x:hidden;
+}
+
+
+
+#content_block{
+    padding-top:100px;
+}
+
+
+#content_block a {
+
+    text-decoration:none;
+    color:#000;
+
+}
+
+
+#content{
+    padding-bottom:50px;
+}
+
+#content h1{
+    font-family: 'Alegreya SC', serif;
+    text-transform:uppercase;
+    font-weight:500;
+    color:#000;
+}
+
+#content p {
+    letter-spacing:2.5px;
+    color:#000;
+}
+
+.logo{
+    display:block;
+    float:right;
+    padding-top:100px;
+    padding-bottom:100px;
+
+}
+
+
+
+.mygallery {
+    padding:70px;
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-top:0px;
+    overflow: hidden;
+}
+.mygallery2 {
+
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.ekko-lightbox-nav-overlay{
+    display:none;
+}
+
+.photo2 img{
+    height: 355px!important;
+    width: auto!important;
+}
+
+.photo4 img{
+    height: 440px!important;
+    width: 100%;
+}
+
+
+.photo5 img{
+    height: 440px!important;
+    width: auto!important;
+}
+
+.photo3 img{
+    width: 110%!important;
+    height: 350px!important;
+}
+
+.col-md-4:nth-child(2n){
+    max-width: 23.333333%;
+
+ }
+ 
+
+#single img{
+    padding:5px;
+    
+    height:auto;
+    width:100%;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+  .mygallery{
+      width: 100%;;
+      flex-wrap:wrap;
+      flex-direction:column;
+      padding:0px!important;
+  }
+
+  #single img{
+    padding:inherit;
+    
+    height:inherit;
+    width:inherit;
+    max-height:inherit;
+}
+
+
+
+.photo5 img{
+    all:revert!important; 
+}
+
+  .mygallery2{
+    flex-wrap:wrap;
+    flex-direction:column;
+    padding:0px!important;
+}
+
+}
